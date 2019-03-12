@@ -4,6 +4,7 @@
   list-style-type: none;
   padding: 0;
   width: 15em;
+  margin-left: 40%
 }
 .heroes li {
   position: relative;
@@ -48,4 +49,37 @@
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+.add{
+  line-height: 2rem;
+  width: 70px;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: rgb(221, 62, 62) !important;
+  color: white;
+}
+input{
+  width: 40%;
+    
+    padding-inline-start: 15px;
+    line-height: 2rem;
 }
